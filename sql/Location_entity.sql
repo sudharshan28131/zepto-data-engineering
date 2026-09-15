@@ -11,7 +11,7 @@ create or replace table stage_sch.location (
     activeflag text,
     createddate text,
     modifieddate text,
-    -- audit columns for tracking & debugging
+-- audit column
     _stg_file_name text,
     _stg_file_load_ts timestamp,
     _stg_file_md5 text,
@@ -67,7 +67,7 @@ select * from stage_sch.location_stm;
 
 use schema clean_sch;
 
--- Level 2
+-- cleaning
 create or replace table clean_sch.restaurant_location (
     restaurant_location_sk number autoincrement primary key,
     location_id number not null unique,
@@ -334,7 +334,7 @@ order by location_id;
 
 list @stage_sch.csv_stg/daily/restaurant/;
 
-// Part -2 loading the delta data
+-- Part -2 loading the delta data
 list @stage_sch.csv_stg/delta/location;
 
 copy into stage_sch.location (locationid, city, state, zipcode, activeflag, 
