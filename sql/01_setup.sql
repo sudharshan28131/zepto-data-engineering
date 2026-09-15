@@ -1,2 +1,13 @@
--- Zepto Data Engineering Project
--- Snowflake SQL scripts
+-- Zepto Data Engineering Project Setup
+
+USE ROLE SYSADMIN;
+USE WAREHOUSE ADHOC_WH;
+USE DATABASE SANDBOX;
+USE SCHEMA STAGE_SCH;
+
+-- Checking the current Snowflake setup
+
+SELECT CURRENT_ROLE();
+SELECT CURRENT_WAREHOUSE();
+SELECT CURRENT_DATABASE();
+SELECT CURRENT_SCHEMA();
