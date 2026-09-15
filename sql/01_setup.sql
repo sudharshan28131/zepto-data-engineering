@@ -1,0 +1,2 @@
+-- Zepto Data Engineering Project
+-- Snowflake SQL scripts
