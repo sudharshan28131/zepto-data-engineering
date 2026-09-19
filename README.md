@@ -6,9 +6,6 @@ The Zepto Data Engineering Project is a data analytics and engineering project b
 The project follows the architecture shown below:
 
 ##  Architecture
-
-The project follows a structured architecture where data moves through different stages of processing, transformation, and storage.
-
 <p align="center">
   <img src="./images/architecture.png" alt="Project Architecture" width="800">
 </p>
