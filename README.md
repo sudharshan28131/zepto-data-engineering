@@ -33,3 +33,12 @@ The architecture ensures that the data is processed efficiently and reaches the 
 - **Visual Studio Code** – Development and code editing
 - **Git** – Version control
 - **GitHub** – Source code management and repository hosting
+
+
+## ER Diagram
+
+The following ER diagram represents the database structure and relationships between the entities used in the project.
+
+<p align="center">
+  <img src="./images/SANDBOX%20-%20SANDBOX%20-%20CONSUMPTION_SCH%20new.png" alt="ER Diagram" width="900">
+</p>
