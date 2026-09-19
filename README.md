@@ -5,12 +5,12 @@ The Zepto Data Engineering Project is a data analytics and engineering project b
 
 The project follows the architecture shown below:
 
-##  Architecture
+## 🏗️ Architecture
 
-The system follows a structured architecture designed to efficiently collect, process, and transform data.
+The project follows a structured architecture where data moves through different stages of processing, transformation, and storage.
 
 <p align="center">
-  <img src="images/architecture.png" alt="Project Architecture" width="800">
+  <img src="./images/architecture.png" alt="Project Architecture" width="800">
 </p>
 
-The architecture consists of multiple stages, where raw data is collected from the source, processed and transformed through the pipeline, and finally stored in the required destination for analysis and further use.
+The architecture ensures that the data is processed efficiently and reaches the final destination in a structured format.
